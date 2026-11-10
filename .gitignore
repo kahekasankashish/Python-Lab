@@ -1,0 +1,43 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated data and output files
+*.log
+*.tmp
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
